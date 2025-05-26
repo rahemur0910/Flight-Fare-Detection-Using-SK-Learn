@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask cache and logs
+instance/
+.webassets-cache
+*.log
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled files
+*.pyc
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter output
+*.nbconvert.ipynb
+
+# Model and pickle files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Docker
+*.pid
+*.pid.lock
+
+# Compiled HTML help files
+*.chm
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Pytest
+.cache/
+
+# Local SQLite database
+*.sqlite3
+
+# Static or temp data
+*.bak
+*.tmp
+*.temp
+
+# JetBrains IDEs
+.idea/
