@@ -22,7 +22,7 @@ def conv(to_predict_list):
     to_predict_list.update({'A_Hour':int(A_DT.hour)})
     to_predict_list.update({'A_Minutes':int(A_DT.minute)})
     DR = (((int(D_DT.hour)-int(A_DT.hour))*60) + (int(D_DT.minute)-A_DT.minute))
-    to_predict_list.update({'Duration_Min':int(DR)})
+    to_predict_list.update({'Duration_Min':int(DR)})  
 
 # prediction function
 def ValuePredictor(to_predict_list):
